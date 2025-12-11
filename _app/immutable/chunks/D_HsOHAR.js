@@ -1,0 +1,1 @@
+import{w as s}from"./DlqqX1IU.js";const e="activatedDays",t=typeof window<"u"?localStorage.getItem(e):null,i=t?JSON.parse(t):[],a=s(i);a.subscribe(o=>{typeof window<"u"&&localStorage.setItem(e,JSON.stringify(o))});const r=a;export{r as a};
